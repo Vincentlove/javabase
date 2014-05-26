@@ -1,3 +1,5 @@
+package cn.nsu.edu.base;
+
 public class  BinaryType {
 	public static void main(String[] args) {
 		//×¢ÊÍµÄÎÊÌâ
