@@ -1,7 +1,7 @@
 public class TestIf{
 
 	public static void main(String [] args){
-		//²úÉúËæ»úÊı
+		//äº§ç”Ÿéšæœºæ•°
 		double d = Math.random();
 		System.out.println(d);
 	}
