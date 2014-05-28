@@ -1,4 +1,10 @@
 *.class
+<<<<<<< HEAD
 *.classpath
 *.project
 .settings/
+=======
+.settings/
+*.classpath
+*.project
+>>>>>>> 2cf6f08ff1fd2c19d4329476e4dd150500f6592a
