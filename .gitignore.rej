@@ -1,0 +1,6 @@
+diff a/.gitignore b/.gitignore	(rejected hunks)
+@@ -1 +1,4 @@
+ *.class
++*.classpath
++*.project
++.settings/
