@@ -3,8 +3,6 @@
  */
 package cn.nsu.edu.string;
 
-import java.lang.Character.Subset;
-
 /**
  * @author Vincent 读取字符串的长度
  */
