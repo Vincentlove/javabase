@@ -28,6 +28,7 @@ public class TestString {
 
 		System.out.println(str1 + str2 + str3);
 	}
+
 	/**
 	 * 字符串的另一种写法
 	 */
@@ -37,27 +38,34 @@ public class TestString {
 		String str3 = str2 + "出场！";
 		System.out.println(str3);
 	}
+
 	/**
 	 * equals方法
 	 */
-	public static void TestEquals(){
-		String  str1 = new String("abc");
-		String  str2 = new String("abc");
+	public static void TestEquals() {
+		String str1 = new String("abc");
+		String str2 = new String("abc");
 		System.out.println(str1.equals(str2));
 	}
+
 	/**
 	 * 
 	 * @param args
 	 */
-	public static void TestEquals2(){
+	public static void TestEquals2() {
 		String str1 = "abc";
 		String str2 = "abc";
-		System.out.println(str1==str2);
+		if (str1 == str2) {
+			System.out.println("str1等于str2");
+		} else {
+			System.out.println("str1不等于str2");
+		}
 	}
+
 	public static void main(String[] args) {
 		// string();
-//		concatenation1();
-//		TestEquals();
+		// concatenation1();
+		// TestEquals();
 		TestEquals2();
 	}
 }
