@@ -55,7 +55,7 @@ public class TestStringLength {
 		System.out.println("substring方法2：" + s);
 		return s;
 	}
-
+ 
 	public static void main(String[] args) {
 		length();
 		ADB();
